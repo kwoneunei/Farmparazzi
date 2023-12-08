@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="farmparazzi">팜파라치</string>
+    <string name="title_activity_login">login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_my_page">My_Page</string>
+    <string name="title_activity_my_plant">My_Plant</string>
+    <string name="title_activity_today_plant">Today_Plant</string>
+</resources>
