@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ivory">
+    android:background="@color/white">
 
 
     <TextView
@@ -12,10 +12,11 @@
         android:layout_width="104dp"
         android:layout_height="25dp"
         android:layout_marginStart="153dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="154dp"
         android:text="팜파라치 HOME"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,10 +26,10 @@
         android:layout_height="115dp"
         android:layout_marginTop="73dp"
         android:layout_marginEnd="58dp"
-        android:background="@drawable/circle_button"
         android:text="내 화분    구경하기"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:background="@drawable/circle_button"/>
 
     <Button
         android:id="@+id/button3"
@@ -48,7 +49,7 @@
         android:layout_marginTop="71dp"
         android:layout_marginEnd="68dp"
         android:background="@drawable/circle_button"
-        android:text="게시물     피드"
+        android:text="수다방"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 

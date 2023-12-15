@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ivory">
+    android:background="@color/white">
+
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="67dp"
-        android:layout_marginEnd="193dp"
-        android:text="닉네임:"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="326dp"
+        android:text="닉네임:으니"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
 
     <TextView
         android:id="@+id/textView5"
@@ -26,8 +26,9 @@
         android:layout_marginStart="175dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="177dp"
-        android:text="식물 소개:"
+        android:text="식물 소개: 저는 인삼팬더를 키우고 있어요.                                             인삼팬더는 밝은 곳을 좋아해서 햇빛이 잘 드는 곳에 두어야해요"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

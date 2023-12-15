@@ -4,11 +4,13 @@ public class Plant {
     private String id;
     private String name;
     private int image;
+    private String feature;
 
-    public Plant(String id, String name, int image){
+    public Plant(String id, String name, int image,String feature){
         this.id=id;
         this.name=name;
         this.image=image;
+        this.feature=feature;
     }
 
     public String getId(){
@@ -33,5 +35,13 @@ public class Plant {
 
     public void setImage(int image){
         this.image=image;
+    }
+
+    public String getFeature(){
+        return feature;
+    }
+
+    public void setFeature(String feature){
+        this.feature=feature;
     }
 }

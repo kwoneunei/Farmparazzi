@@ -50,6 +50,13 @@ public class Home extends AppCompatActivity{
             }
         });
 
+        RecPlantButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRecPlantActivity();
+            }
+        });
+
         DicPlantButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,6 +87,11 @@ public class Home extends AppCompatActivity{
 
     private void openTodayPlantActivity() {
         Intent intent = new Intent(getApplicationContext(), Today_Plant.class);
+        startActivity(intent);
+    }
+
+    private void openRecPlantActivity() {
+        Intent intent = new Intent(getApplicationContext(), RecPlantActivity.class);
         startActivity(intent);
     }
 

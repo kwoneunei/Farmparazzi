@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ivory">
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView11"
@@ -18,21 +18,40 @@
 
     <ImageView
         android:id="@+id/imageView4"
+        android:src="@drawable/sunflower"
         android:layout_width="300dp"
         android:layout_height="294dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="43dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="57dp"
-        android:text="꽃말:"
+        android:layout_marginTop="60dp"
+        android:text="꽃말:희망, 햇볕, 순수, 기쁨"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="특징 : 해바라기는 꽃봉오리가 햇빛을 향해 따라 돌아가는 특징이 있어요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="31dp"
+        android:text="키우는 법 : 씨앗을 심을 때는 1~2cm 정도 깊이 묻어 심어주세요.
+해바라기는 햇빛이 많이 필요하기 때문에 햇빛이 잘 드는 곳에 심어주세요. 키우는 동안 꽃봉오리가 무거워져 휠 수 있으니 지지을 사용하여 꽃을 받쳐주세요."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 </androidx.constraintlayout.widget.ConstraintLayout>

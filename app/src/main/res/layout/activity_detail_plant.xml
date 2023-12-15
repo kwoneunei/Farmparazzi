@@ -4,20 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".DetailActivity"
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/plant_detail_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="68dp"/>
 
     <TextView
         android:id="@+id/plant_detail_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:text="동물이름"
-        android:textSize="50sp"/>
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/plant_detail_feature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"/>
 </RelativeLayout>

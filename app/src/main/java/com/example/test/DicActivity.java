@@ -22,11 +22,14 @@ public class DicActivity extends AppCompatActivity {
     }
 
     private void setUpData() {
-        Plant rose = new Plant("0", "rose", R.drawable.rose);
+        Plant rose = new Plant("0", "장미", R.drawable.rose,".");
         plantList.add(rose);
 
-        Plant rose2 = new Plant("1", "rose2", R.drawable.rose);
-        plantList.add(rose2);
+        Plant sunflower = new Plant("1", "해바라기", R.drawable.sunflower,".");
+        plantList.add(sunflower);
+
+        Plant basil = new Plant("2", "바질", R.drawable.basil,"특징 : 바질은 특유의 향과 맛으로 인기 있는 허브 중 하나입니다. 봄이나 여름에 심을 수 있고, 집에서 쉽게 키울 수 있어 즐겨 키우는 허브로, 음식 조리에 활용할 수 있습니다.");
+        plantList.add(basil);
     }
 
     private void setUpList() {
